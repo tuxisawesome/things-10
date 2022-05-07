@@ -12,14 +12,20 @@ const peerServer = ExpressPeerServer(server, {
 });
 
 var FIREBASE_CONFIG = {
-     apiKey: "AIzaSyAF1i5MloeErcq7ErFcnEEsEg4CGM5Enps",
-     authDomain: "teams-clone-a921c.firebaseapp.com",
-     databaseURL: "https://teams-clone-a921c-default-rtdb.firebaseio.com",
-     projectId: "teams-clone-a921c",
-     storageBucket: "teams-clone-a921c.appspot.com",
-     messagingSenderId: "24512433115",
-     appId: "1:24512433115:web:85d0bd97e77414338e75fe",
-     measurementId: "G-R1EGVPHZ3R"
+  apiKey: "AIzaSyBoBvUi-E31-iy2j-Q1GLSPIxmNn3c6z88",
+
+  authDomain: "castle-video-chat.firebaseapp.com",
+
+  projectId: "castle-video-chat",
+
+  storageBucket: "castle-video-chat.appspot.com",
+
+  messagingSenderId: "1041947416860",
+
+  appId: "1:1041947416860:web:3b3eb0d19cf0d2df4882d9",
+
+  measurementId: "G-04WB9NT78V"
+
    };
 
 firebase.initializeApp(FIREBASE_CONFIG);
